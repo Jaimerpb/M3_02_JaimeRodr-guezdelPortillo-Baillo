@@ -6,7 +6,7 @@ def division(numerador,denominador):
         numero=numerador/denominador
         return numero
     except ZeroDivisionError:
-        return "No se puuede dividir entre O"
+        print("No puede ser divisible entre 0")
 
 division(7,0)            
 
